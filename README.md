@@ -38,4 +38,14 @@ Project's colab link is [here](https://colab.research.google.com/drive/1QdQBF7qh
 ## Additional Questions
 
 ### If I’d have 10.000 urls that I should visit, then it takes hours to finish. What can we make to fasten this process?
-  I think in this case we should focus on bottleneck of the process. The bottleneck part is requesting data from the website's server. This operation takes almost the entire time of the execution. 
+  I think in this case we should focus on bottleneck of the process. The bottleneck part is requesting data from the website's server. This operation takes almost the entire time of the execution. A list of strategies can be used to reduce requesting time is given below:
+  * Reducing request: Because each request is an additional cost of time, determining the true request is a key issue. Sometimes the data we are looking for can be retrieved with one request per plenty of products instead of request per product. For example, if we need prices of all products, it would be more cost beneficial to gather all the data with one request from products collection, not from each product's pages.
+  * Selecting best tool to work with: If input is getting larger and larger, small improvements matter. There are several languages, libraries to handle the process. For python there are libraries like Request, BeautifulSoup, lxml, Selenium, Scrapy etc. They can be compared to select the optimum one for the process.
+  * Multiprocessing: the code can be runned on several cores simultaneously to fasten the process. By this way the request speed is multiplied by the number of processors.
+  * Multithreading: multithreading is executing multiple threads on same core concurrently. Because the limiting factor in this project is response time of the server, multithreading would work well on this topic. Instead of waiting one response with doing nothing with a core, multiple request can be done and time can be saved. 
+
+### What can we make or use to automate to run once a day?
+  I do not have comprehensive knowledge about the question but maybe a cloud services can be rented to run automatically everyday.
+
+### Briefly what is an API
+  Briefly an API is the way of communication for applications.
