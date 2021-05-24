@@ -16,3 +16,26 @@ Project's colab link is [here](https://colab.research.google.com/drive/1QdQBF7qh
 ## URL of the report
 
   [This report](https://docs.google.com/spreadsheets/d/1IhL3WcVU742pI3xtqrR6BZ8cljHBTxKivzwRdVxoIk4/edit?usp=sharing) is the spreadsheet output of the project.
+  
+## Used tech-stack
+  * Colab
+  * Google apps script
+  * pandas library of python
+  * numpy library of python
+  * BeautifulSoup library of python
+  * re library of python
+  * html library of python
+  * gspread library of python
+
+## Challenges I have encountered
+   I think the real one challange was knowing almost nothing about the project's way of done. I was not familiar with web scraping, writing the output to google sheets, and google app script before coding the project. I needed to learn most the thing while writing the project.
+   
+   Also the other challange was limited time. Because there was also plenty of projects, quizes, and homeworks at the university, I had hard times to spare time to code this project.
+   
+## What I learned from the project
+  As I mentioned above, I learned web scraping, using google sheets in my code, google app script.
+  
+## Additional Questions
+
+### If I’d have 10.000 urls that I should visit, then it takes hours to finish. What can we make to fasten this process?
+  I think in this case we should focus on bottleneck of the process. The bottleneck part is requesting data from the website's server. This operation takes almost the entire time of the execution. 
