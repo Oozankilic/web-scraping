@@ -13,3 +13,6 @@ Project's colab link is [here](https://colab.research.google.com/drive/1QdQBF7qh
   Finally when all data gathered in a tuple, they are written down to a google spreadsheet with the help of Gspread library of Python. That is also asked in the project that the spreadsheet data should be sorted in terms of availability values and sent to an e-mail address via google apps script. Google apps script codes for sorting and sending the data as e-mail can be reached from the project's github file.
   
   
+## URL of the report
+
+  [This report](https://docs.google.com/spreadsheets/d/1IhL3WcVU742pI3xtqrR6BZ8cljHBTxKivzwRdVxoIk4/edit?usp=sharing) is the spreadsheet output of the project.
