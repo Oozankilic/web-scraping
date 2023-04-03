@@ -1,6 +1,6 @@
 # web-scraping
 
-Project's colab link is [here](https://colab.research.google.com/drive/1QdQBF7qhd943Chg5B1buJUUK53u6vYUz?usp=sharing) in case it does not open on Github(Github has a bug with ipynb files) 
+Project's colab link is [here](https://colab.research.google.com/drive/1QdQBF7qhd943Chg5B1buJUUK53u6vYUz?usp=sharing)
 
 # Description
 
